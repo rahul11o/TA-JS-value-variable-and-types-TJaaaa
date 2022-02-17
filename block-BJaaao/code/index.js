@@ -58,7 +58,7 @@ alert(`Profession: ${userProfession}`);
 let numA = prompt(`greatest one digit number?`);
 let numB = prompt(`first multiple of 15?`)
 alert(` Sum of numA and NnumB ${Number(numA) + Number(numB)}`)
-alert(` difference of numA and NnumB ${Number(numA) - Number(numB)}`)
+alert(` difference of numA and NnumB ${Number(numA) -es Number(numB)}`)
 alert(` multiply of numA and NnumB ${numA * numB}`)
 console.log(`${numA-numB}`)
 console.log(`${numA*numB}`)
