@@ -10,6 +10,16 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
+let yourAge = prompt("what is your age?") 
+if(yourAge < 4){
+  alert("Hey kido! Can you walk?")
+} else if(yourAge < 12){
+  alert("You are too young to participate in the marathon.")
+} else if(yourAge < 55){
+  alert("You can participate in the marathon")
+} else{
+  alert("You are too old to participate in the marthon")
+}
 
 // Loops
 /*
@@ -21,6 +31,7 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+
 
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
